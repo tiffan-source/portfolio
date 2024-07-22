@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke-3 {
+    text-shadow: -1px -1px 0 gray, 1px -1px 0 gray, -1px 1px 0 gray, 1px 1px 0 gray;
+}
+
+@layer components {
+    .h1-stroke {
+        @apply text-4xl font-bold uppercase text-stroke-3 text-white border-b-2 border-black tracking-widest
+    }
+}
