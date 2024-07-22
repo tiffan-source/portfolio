@@ -1,4 +1,3 @@
-import React from 'react'
 import olivia from "../../assets/images/oliart_logo.jpg"
 import amoa from "../../assets/images/amoa_digitale_logo.jpeg"
 import acadomia from "../../assets/images/logo_acadomia_jaune.webp"

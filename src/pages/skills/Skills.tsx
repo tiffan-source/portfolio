@@ -1,4 +1,3 @@
-import React from 'react'
 import Language from './Language'
 import WebFramework from './WebFramework'
 import Devops from './Devops'
