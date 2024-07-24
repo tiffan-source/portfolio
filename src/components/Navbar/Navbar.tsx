@@ -38,7 +38,7 @@ function Navbar() {
         </div>
         {
             isMenuOpen &&
-            <ul className="bg-white absolute w-full h-screen p-2 top-0 left-0 flex flex-col justify-center items-center gap-4 z-20 sm:hidden">
+            <ul className="bg-white fixed w-full h-screen p-2 top-0 left-0 flex flex-col justify-center items-center gap-4 z-20 sm:hidden">
             {
                 NavList.map((item, index) => (
                     <li key={index} className={

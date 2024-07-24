@@ -7,8 +7,7 @@ function WebFramework() {
             <iframe src="https://giphy.com/embed/qxkQ5PLLCnXW0" width="240" height="240" frameBorder="0" className="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/yoda-qxkQ5PLLCnXW0">via GIPHY</a></p>
         </div>
         <p>
-            Je suis un vrai mettre Jedi des principaux frameworks web. J'ai une experience de plus de 2 ans dans le developpement web et j'ai travaille avec les frameworks suivants:
-        </p>
+        Je suis un véritable maître Jedi des principaux frameworks web. J'ai une expérience de plus de 2 ans dans le développement web et j'ai travaillé avec les frameworks suivants :        </p>
         <ul className='flex flex-wrap justify-evenly my-4'>
             <li className='flex flex-col justify-center items-center gap-4'>
                 <span className='inline-flex justify-center items-center w-20 h-20 border-2 rounded-full bg-cyan-50 border-cyan-300'>
