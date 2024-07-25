@@ -1,8 +1,16 @@
 import { Outlet } from "react-router-dom"
 import Navbar from "./components/Navbar/Navbar"
 import Header from "./components/Header/Header"
+import { useEffect } from "react"
+import axios from "axios";
 
 function App() {
+
+    useEffect(() => {
+        (async()=>{
+            await axios.get(`${import.meta.env.VITE_REACT_API_URL}count`)
+        })();
+    })
 
 return (
     <main className="font-ClashDisplay min-h-screen">
